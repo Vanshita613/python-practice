@@ -1,0 +1,230 @@
+# str="vanshita"
+# print(str.endswith("vv"))
+
+# str="my name is sia"
+# print(str.find("sia"))
+
+# str= " hi hi hello"
+# print(str.count("hi"))
+
+# name  = input("enter your first name:")
+# len = len( name)
+# print (  len, name  )
+
+# marks = 74
+# if(marks >=90):
+#      grade ="A"
+# elif(marks >=80 and marks < 90):
+#     grade = "B"
+# elif(marks >=70 and marks < 80):
+#      grade = "C"
+
+# elif (marks >= 60 and marks <70):
+#      grade = "D"
+
+# print ("grade of the student", grade)  #output: grade of the student is c 
+
+
+# a=int (input("enter a number"))
+# b = int(input( "enter a number"))
+# c = int(input( "enter a number"))
+
+# if ( a>=b and a>=c):
+#     print( "first number is the largest", a)
+
+# elif(b>=c):
+#     print ( "second number is the largest ", b)
+
+# else:
+#     print( "third number is the largest")
+
+# a= int(input (" enter number: "))
+# if(a% 7==0) :
+#     print ("multiple of 7")
+# else:
+#     print ("not a multiple")
+
+
+# mov1 = input("enter a movie")
+# mov2 = input("enter a movie")
+# mov3 = input("enter a movie")
+
+# list=[ mov1 , mov2 , mov3]
+# print ( list)
+
+# info = {
+#     "name":  "jimin",
+#     "age"  : "30",
+#     "city" :"seoul",
+# }
+
+# print ( info)
+
+# dict = {
+#     "word" :"happy",
+#     "means" : "happii",
+# }
+
+# dict.update ({"opposite":"sad"})
+# print (dict)
+
+
+# set ={ "park jimin"}
+
+# print ( type (set))
+
+
+# count = 1
+# while count <=8:
+#     print ("sia")
+#     count += 1
+#     print(count)
+
+# set1= {5, 6,6 ,7}
+# set2= {5 , 9,5,4 ,0}
+
+# print(set1.union(set2))
+
+# dict ={
+#     "table" : ["a piece of furniture","list of facts and figures"],
+#  "cat" : "a small animal" 
+
+#     }
+# print ( dict)
+
+
+# marks = {}
+
+# x = int (input("enter eng : "))
+# marks.update({"eng":x})
+
+# x =int(input("enter hindi :"))
+# marks.update({ "hindi" : x})
+
+# x= int(input("enter maths : "))
+# marks.update({"maths": x})
+
+# print(marks)
+
+# count= 1
+# while count<=4:
+#     print ("hoseok")
+#     count += 1
+
+# count = 1
+# while count <=100:
+#     print ( count)
+#     count +=1
+
+
+# i=100
+# while i >=1:
+#     print (i)
+#     i -=1
+
+# n=int(input("enter a number"))
+# i=1
+# while i<=10:
+#     print(n*i)
+#     i +=1
+  
+# index = 0
+# nums=[1 , 4 ,9 ,16, 25,36,49,64,81,100]
+# while index < len(nums):
+#     print( nums[index])
+#     index +=1
+    
+# nums=[1,2,3,5,6]
+
+# for val in nums:
+#     print(val)
+
+# names = [ "jim", "v" ,"kook","rm" ,"hope" ,"suga" ,"jin"]
+# for el in names:
+#     print ( el)
+
+# nums=[ 1,4,9,16,24,36,49,64,81,100]
+
+# for el in nums:
+#     print(el)
+
+# nums =( 1,4,9,16,24,36,49,64,81,100)
+# x = 49
+# for el in nums :
+#     if (el==x):
+#      print ( x)
+
+# for i in range(17):
+#     print (i)
+
+# for i in range(1 , 101):
+
+#     print (i)
+
+# for i in range(100,0 , -1):
+#     print (i)
+
+# n = int(input("enter a number"))
+
+# for i in range( 1,11):
+#     print ( n*i)
+
+# n = int ( input ("enter a number: "))
+# i = 1
+# while i <= n:
+#     print ( i + n)
+#     i +=1
+
+# def calc_sum(a,b):
+#     return a+b
+# i = calc_sum ( 7,7)
+# print (i)
+
+# def calc_sub(a,b):
+#     return a-b
+# v= calc_sub (999,89)
+# print (v)
+
+# def multiply(a,b,c):
+#     return a*b*c
+# j= multiply (8,67,4)
+# print(j)
+
+# def calc_avg(a,b,c):
+#     sum= a+b+c
+#     avg= sum/3
+
+#     print (avg)
+#     return avg
+# calc_avg(1,4,2)
+
+# def calc_avg (a,b,c):
+#     sum= a+b+c
+#     avg= sum/3
+ 
+#     print ( avg )
+   
+# calc_avg (6,7,8)
+
+
+# cities =["seoul","tokyo","indore","jimin", "suga", "jungkoook"]
+  
+# def city_nm( list):
+#      print (len(list))
+
+# city_nm(cities)
+
+#
+
+# def idol_nm(list):
+#      print(len(list))
+
+# idol_nm(names)
+
+# list=["vansh","riki", "sam"]
+# print(list[0] , end=" ")
+# print(list[2] , end=" ")
+
+# def calc_fact(n):
+#     fact=1
+#

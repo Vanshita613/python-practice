@@ -37,6 +37,7 @@
 # print("the area of square is: ", area)
 
 # Q3 WAP to input 2 floating point numbers & print their average.
+
 a = float(input("enter the first value:"))
 b = float(input("enter the second value:"))
 

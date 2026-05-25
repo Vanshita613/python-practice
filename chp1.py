@@ -38,9 +38,32 @@
 
 # Q3 WAP to input 2 floating point numbers & print their average.
 
-a = float(input("enter the first value:"))
-b = float(input("enter the second value:"))
+# a = float(input("enter the first value:"))
+# b = float(input("enter the second value:"))
 
-avg= ((a+b)/2)
+# avg= ((a+b)/2)
 
-print("the average of the numb is =", avg)
+# print("the average of the numb is =", avg)
+
+
+# Q. write a program to input users first name and print its length.
+
+# name= input("enter your first name : ")
+# len=len(name)
+
+# print(len,name)
+
+
+marks=45
+
+if(marks>=90):
+    print("grade:A")
+
+elif(90>marks>=80):
+    print("grade:B")
+    
+elif(80>marks>=70):
+    print("grade:C")
+
+else:
+    print("grade:D")

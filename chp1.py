@@ -54,7 +54,7 @@
 # print(len,name)
 
 
-marks=45
+marks=int(input("enter your marks:"))
 
 if(marks>=90):
     print("grade:A")

@@ -54,16 +54,25 @@
 # print(len,name)
 
 
-marks=int(input("enter your marks:"))
+# marks=int(input("enter your marks:"))
 
-if(marks>=90):
-    print("grade:A")
+# if(marks>=90):
+#     print("grade:A")
 
-elif(90>marks>=80):
-    print("grade:B")
+# elif(90>marks>=80):
+#     print("grade:B")
     
-elif(80>marks>=70):
-    print("grade:C")
+# elif(80>marks>=70):
+#     print("grade:C")
 
-else:
-    print("grade:D")
+# else:
+#     print("grade:D")
+
+# #Q. odd even.
+# num = int(input("enter a number : "))
+
+# if(num%2==0):
+#     print("even")
+
+# else :
+#     print("odd!")

@@ -30,9 +30,13 @@
 #     index+=1
 
 # Q.
-nums=[1 , 4, 9, 16,25, 36, 49, 64, 81,100,102]
-index=9
-i=25
+i=1
+while i <=7:
+  if( i==5):
+    break
+  print(i)
+  i+=1
+print("found!")
 
 
 

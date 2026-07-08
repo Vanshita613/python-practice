@@ -30,14 +30,21 @@
 #     index+=1
 
 # Q.
-i=1
-while i <=7:
-  if( i==5):
-    break
-  print(i)
-  i+=1
-print("found!")
+# i=1
+# while i <=7:
+#   if( i==5):
+#     break
+#   print(i)
+#   i+=1
+# print("found!")
+
+# Q.
+# nums= [1 , 4, 9, 16,25, 36, 49, 64, 81,100]
+# for el in nums:
+#   print( el)
 
 
-
+print ("hello world")
     
+num_1= int(input("enter a number:"))
+num_2

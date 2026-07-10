@@ -241,10 +241,16 @@
 #     print("Not Weird")
 
 
-name="siddarth"
-print(name[4])
+# name="siddarth"
+# print(name[4])
 
 
-str="vanshita"
-len=len(str)
-print(len)
+# str="vanshita"
+# len=len(str)
+# print(len)
+
+word= "PYTHON"
+print(word[0:5])
+
+name="apple"
+print(name[-3:-1])

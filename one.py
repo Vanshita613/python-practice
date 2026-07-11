@@ -257,13 +257,33 @@
 
 
 #find the largest number among three numbers
-num_1=int(input("enter first number:"))
-num_2=int(input("enter second number:"))
-num_3=int(input("enter third number:"))
+# num_1=int(input("enter first number:"))
+# num_2=int(input("enter second number:"))
+# num_3=int(input("enter third number:"))
 
-if (num_1 > num_2 and num_1> num_3):
-    print(num_1, "is the largest")
-elif (num_2 >num_1 and num_2 > num_3):
-    print(num_2 , "is the largest")
-else :
-    print(num_3 ,"is the largest")
+# if (num_1 > num_2 and num_1> num_3):
+#     print(num_1, "is the largest")
+# elif (num_2 >num_1 and num_2 > num_3):
+#     print(num_2 , "is the largest")
+# else :
+#     print(num_3 ,"is the largest")
+
+
+n=65
+if(n<98):
+    print("n is less than 98")
+
+
+# Given a number, check if it is divisible by 9. If yes, check if it is even or odd.
+
+num=int(input("enter a number:"))
+
+if (num%9==0) :
+    if (num%2==0):
+        print("number is divisible by 9 and number is even!") 
+        
+    else:
+        print("number is divisible by 9 and numner is odd!")
+        
+else: 
+    print("the number is not divisible by 9!")

@@ -276,14 +276,27 @@ if(n<98):
 
 # Given a number, check if it is divisible by 9. If yes, check if it is even or odd.
 
-num=int(input("enter a number:"))
+# num=int(input("enter a number:"))
 
-if (num%9==0) :
-    if (num%2==0):
-        print("number is divisible by 9 and number is even!") 
+# if (num%9==0) :
+#     if (num%2==0):
+#         print("number is divisible by 9 and number is even!") 
         
-    else:
-        print("number is divisible by 9 and numner is odd!")
+#     else:
+#         print("number is divisible by 9 and numner is odd!")
         
-else: 
-    print("the number is not divisible by 9!")
+# else: 
+#     print("the number is not divisible by 9!")
+
+
+
+# check wether given number is positiv , negative or zero
+num=int(input("enter a number:"))
+    
+if( num>0):
+        print("number is positive")
+        
+elif(num<0):
+    print("number is negative")
+else :
+    print("number is zero")

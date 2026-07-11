@@ -249,8 +249,21 @@
 # len=len(str)
 # print(len)
 
-word= "PYTHON"
-print(word[0:5])
+# word= "PYTHON"
+# print(word[0:5])
 
-name="apple"
-print(name[-3:-1])
+# name="apple"
+# print(name[-3:-1])
+
+
+#find the largest number among three numbers
+num_1=int(input("enter first number:"))
+num_2=int(input("enter second number:"))
+num_3=int(input("enter third number:"))
+
+if (num_1 > num_2 and num_1> num_3):
+    print(num_1, "is the largest")
+elif (num_2 >num_1 and num_2 > num_3):
+    print(num_2 , "is the largest")
+else :
+    print(num_3 ,"is the largest")

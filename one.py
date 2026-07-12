@@ -342,13 +342,31 @@
 #  print(i)
 #  i+=1
 
-n=int(input("enter a nubmer:"))
-i=1
-while(i<=10):
-    print(i*n)
-    i+=1
+# n=int(input("enter a nubmer:"))
+# i=1
+# while(i<=10):
+#     print(i*n)
+#     i+=1
 
-i=100
-while(i<=1):
-    print(i)
-    i-=1
+# i=100
+# while(i<=1):
+#     print(i)
+#     i-=1
+
+# n = int(input("Enter a number: "))
+
+# fact = 1
+# i = 1
+
+# while i <= n:
+#     fact = fact * i
+#     i = i + 1``
+
+# print("Factorial =", fact)
+
+
+i=1
+while(i<=5):
+    print(i**2)
+    i+=1
+    

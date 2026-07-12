@@ -269,9 +269,9 @@
 #     print(num_3 ,"is the largest")
 
 
-n=65
-if(n<98):
-    print("n is less than 98")
+# n=65
+# if(n<98):
+#     print("n is less than 98")
 
 
 # Given a number, check if it is divisible by 9. If yes, check if it is even or odd.
@@ -291,12 +291,64 @@ if(n<98):
 
 
 # check wether given number is positiv , negative or zero
-num=int(input("enter a number:"))
+# num=int(input("enter a number:"))
     
-if( num>0):
-        print("number is positive")
+# if( num>0):
+#         print("number is positive")
         
-elif(num<0):
-    print("number is negative")
-else :
-    print("number is zero")
+# elif(num<0):
+#     print("number is negative")
+# else :
+#     print("number is zero")
+
+
+# # LEAP YEAR CHECKER
+# year=int(input("enter the year:"))
+
+# if(year % 400==0) or( year % 4==0 and year % 100!=0):
+#         print("Leap year!")
+# else:
+#     print("not a leap year!")
+    
+    
+
+
+#  marks=int(input("enter the marks:"))
+
+# if (marks>=90):
+#     print("GRADE A")
+# elif( marks>=80):
+#     print("GRADE B")
+# elif(marks>=70):
+#     print("GRADE C")
+# elif(marks>=60):
+#     print("GRADE D")
+# else:
+#     print("FAIL!")
+    
+
+# n = 10
+# i =1
+# sum = 0
+# while(i<=n):
+#    sum+=i
+#    i+=1
+# print(sum)
+
+
+
+# i=1
+# while(i<=10):
+#  print(i)
+#  i+=1
+
+n=int(input("enter a nubmer:"))
+i=1
+while(i<=10):
+    print(i*n)
+    i+=1
+
+i=100
+while(i<=1):
+    print(i)
+    i-=1

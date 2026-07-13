@@ -44,7 +44,20 @@
 #   print( el)
 
 
-print ("hello world")
-    
-num_1= int(input("enter a number:"))
-num_2
+# for i in range(10,0,-1):
+#    print(i)
+
+
+# n=int(input("enter a number:"))
+# for i in range(1,11):
+#     print(i*n)
+
+
+
+# n=int(input("enter a number:"))
+# i=1
+# sum=0
+# while (i<=n):
+#     sum=sum+i
+#     i+=1
+# print(sum)

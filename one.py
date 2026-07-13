@@ -382,28 +382,28 @@
 #     if(i%2==0):
 #         i+=1
 #         continue
-#     print(i)
-#     i+=1
+# #     print(i)
+# #     i+=1
 
       
-# num=(3,5,6,6,2,5,3,)
+# # num=(3,5,6,6,2,5,3,)
+# # for el in num:
+# #     print(el)
+
+
+# num=(1,4,9,16,25,36,49,64,81,100)
+# x=64
+
+# idx=0
 # for el in num:
-#     print(el)
-
-
-num=(1,4,9,16,25,36,49,64,81,100)
-x=64
-
-idx=0
-for el in num:
-    if(el==x):
-        print("found at index",idx)
+#     if(el==x):
+#         print("found at index",idx)
       
-    idx += 1
+#     idx += 1
 
-for i in range(2,21,2):
-    print(i)
+# for i in range(2,21,2):
+#     print(i)
 
 
-for i in range(1,11):
-    print(i)
+# for i in range(1,11):
+#     print(i)

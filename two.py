@@ -19,17 +19,18 @@
 # print(
 
 
-first = input ( "enter first number : ")
-operator= input( "enter the operator  (+,-,*,%,/)")
-second=input ("enter seconf number: ")
+# first = input ( "enter first number : ")
+# operator= input( "enter the operator  (+,-,*,%,/)")
+# second=input ("enter seconf number: ")
 
-if operator=="+":
-    print (int(first)+ int(second))
-if operator=="-":
-    print (int(first)- int(second))
-if operator=="*":
-    print (int(first)* int(second))
-if operator=="%":
-    print (int(first)% int(second))
-if operator=="/":
-    print (int(first)/ int(second))
+# if operator=="+":
+#     print (int(first)+ int(second))
+# if operator=="-":
+#     print (int(first)- int(second))
+# if operator=="*":
+#     print (int(first)* int(second))
+# if operator=="%":
+#     print (int(first)% int(second))
+# if operator=="/":
+#     print (int(first)/ int(second))
+

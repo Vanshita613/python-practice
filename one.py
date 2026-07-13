@@ -384,3 +384,8 @@ while(i<=10):
         continue
     print(i)
     i+=1
+
+      
+num=(3,5,6,6,2,5,3,)
+for el in num:
+    print(el)

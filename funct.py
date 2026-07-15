@@ -21,6 +21,23 @@
 
 
 # print difference
-def diff(a,b):
-    return(a-b)
-print(diff(9,8))
+# def diff(a,b):
+#     return(a-b)
+# print(diff(9,8))
+
+# print name
+# def name():
+#    print("mariah")
+# name()
+# name()
+
+# calculate average of three numbers
+# def avg(a,b,c):
+#     return(a+b+c)/3
+# print(avg(4,7,9))
+
+
+# Write a function to multiply two numbers
+# def calc_prod(a,b):
+#     return a*b
+# print(calc_prod(56,7))

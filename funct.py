@@ -41,3 +41,28 @@
 # def calc_prod(a,b):
 #     return a*b
 # print(calc_prod(56,7))
+
+
+# Write a function to find the square of a number.
+# def sqr(a):
+#     return a**2
+# print(sqr(5))
+
+
+
+# Write a function to check whether a number is positive or negative
+# def check(a):
+#     if a > 0:
+#         return( "positive")
+#     elif a<0:
+#         return ("negative")
+#     else :
+#         return "0"
+# print(check(3))
+
+
+# Write a function to print the multiplication table of any number.
+# def table(n):
+#     for i in range(1,11):
+#         print(i*n)
+# table(7)

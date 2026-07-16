@@ -66,3 +66,11 @@
 #     for i in range(1,11):
 #         print(i*n)
 # table(7)
+
+
+def hello():
+    print("helloo")
+
+hello()
+hello()
+hello()

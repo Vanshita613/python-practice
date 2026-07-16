@@ -44,4 +44,10 @@
 # print(marks)
 
 
+# info={
+#     "name":"sia",
+#     "age":19,
+#     "city":"bangkok",
+# }
 
+# print(info)

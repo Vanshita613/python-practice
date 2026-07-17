@@ -20,3 +20,11 @@
 # movies.append(mov3)
 
 # print(movies)
+
+
+
+# list=["sia","rohan","tia","varun","sam"]
+# print(len(list))
+
+# list=["sia","rohan","tia","varun","sam"]
+# print(list, end=" ")

@@ -68,9 +68,9 @@
 # table(7)
 
 
-def hello():
-    print("helloo")
+# def hello():
+#     print("helloo")
 
-hello()
-hello()
-hello()
+# hello()
+# hello()
+# hello()

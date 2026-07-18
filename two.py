@@ -34,3 +34,10 @@
 # if operator=="/":
 #     print (int(first)/ int(second))
 
+
+n=int(input("enter the year:"))
+
+if(n%400==0)or(n%40==0 and n%100!=0):
+    print("leap year")
+else:
+    print("not a leap year" )

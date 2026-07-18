@@ -35,9 +35,16 @@
 #     print (int(first)/ int(second))
 
 
-n=int(input("enter the year:"))
+# n=int(input("enter the year:"))
 
-if(n%400==0)or(n%40==0 and n%100!=0):
-    print("leap year")
-else:
-    print("not a leap year" )
+# if(n%400==0)or(n%40==0 and n%100!=0):
+#     print("leap year")
+# else:
+#     print("not a leap year" )
+
+a=10
+b=3
+
+a,b=b,a
+print("a=",a)
+print("b=",b)

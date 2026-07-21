@@ -53,7 +53,9 @@ mov3=input("enter 3rd movie:")
 print(list)
 
 
-ist=[]
+
+
+list=[]
 
 mov1=input("enter 1st movie:")
 mov2=input("enter 2nd movie:")

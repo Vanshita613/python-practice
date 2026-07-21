@@ -55,16 +55,6 @@ print(list)
 
 
 
-list=[]
 
-mov1=input("enter 1st movie:")
-mov2=input("enter 2nd movie:")
-mov3=input("enter 3rd movie:")
-
-(list.append(mov1))
-(list.append(mov2))
-(list.append(mov3))
-
-print(list)
 
 

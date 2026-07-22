@@ -85,3 +85,30 @@
 
 # sum=a+b
 # print("the sum of two number is :",sum)
+
+
+#Q2.write a program to check wether  a nubmer is even or odd
+# a=int(input("enter a number:"))
+ 
+# if (a%2==0):
+#     print("the number is even !")
+
+# else:
+#     print("the number is odd!")
+
+
+#Q3.write a program to find the largest of three numbers
+# a=int(input("enter first number:"))
+# b=int(input("enter second number:"))
+# c=int(input("enter third number:"))
+
+# if( a>b and a>c):
+#     print("a is the largest!")
+
+# elif(b>a and b>c):
+#      print("b is the largest!")
+
+# else:
+#      print("c is the largest!"
+
+

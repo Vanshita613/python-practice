@@ -112,3 +112,12 @@
 #      print("c is the largest!"
 
 
+
+#Q4.write a program to swap two numbers(using and without a temporatu variable.)
+# a=9
+# b=0
+
+# a,b=b,a
+# print("a:",a)
+# print("b:",b)
+

@@ -79,12 +79,14 @@
 
 
 
+
 # Q1.write a program to find sum of two numbers
 # a=int(input("enter first number:"))
 # b=int(input("enter second number:"))
 
 # sum=a+b
 # print("the sum of two number is :",sum)
+
 
 
 #Q2.write a program to check wether  a nubmer is even or odd
@@ -95,6 +97,8 @@
 
 # else:
 #     print("the number is odd!")
+
+
 
 
 #Q3.write a program to find the largest of three numbers
@@ -113,11 +117,22 @@
 
 
 
-#Q4.write a program to swap two numbers(using and without a temporatu variable.)
+
+
+#Q4. write a program to swap two numbers 
 # a=9
 # b=0
 
 # a,b=b,a
 # print("a:",a)
 # print("b:",b)
+
+
+
+#Q5. write a progran to check whether a number is positive or negative
+a=int(input("enter a numb:"))
+b=int(input("enter a numb:"))
+
+if (a>0 and b>0):
+    print("both are positive")
 

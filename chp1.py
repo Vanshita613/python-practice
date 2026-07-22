@@ -76,3 +76,12 @@
 
 # else :
 #     print("odd!")
+
+
+
+# Q1.write a program to find sum of two numbers
+# a=int(input("enter first number:"))
+# b=int(input("enter second number:"))
+
+# sum=a+b
+# print("the sum of two number is :",sum)

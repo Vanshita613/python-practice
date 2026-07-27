@@ -39,19 +39,17 @@
 # print(fact)
 
 
+movies = []  # Don't use 'list' as variable name
 
-list=[]
+mov1 = input("enter 1st movie: ")
+mov2 = input("enter 2nd movie: ")
+mov3 = input("enter 3rd movie: ")
 
-mov1=input("enter 1st movie:")
-mov2=input("enter 2nd movie:")
-mov3=input("enter 3rd movie:")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
 
-(list.append(mov1))
-(list.append(mov2))
-(list.append(mov3))
-
-print(list)
-
+print("Your movies:", movies)
 
 
 

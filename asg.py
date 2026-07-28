@@ -15,6 +15,7 @@
 
 
 #Write a program to check whether a given string is a palindrome
+
 text = input("Enter a string: ")
 
 if text == text[::-1]:

@@ -23,12 +23,30 @@
 # else:
 #     print("Not a palindrome")
 
-numbers = [1, 2, 2, 3, 4, 4, 5]
+# numbers = [1, 2, 2, 3, 4, 4, 5]
 
-result = []
+# result = []
 
-for num in numbers:
-    if num not in result:
-        result.append(num)
+# for num in numbers:
+#     if num not in result:
+#         result.append(num)
 
-print(result)
+# print(result)
+
+# Q1 
+
+
+# numbers=[1,4,2,78,9,44]
+
+# numbers.sort()
+
+# print("second largest element is:",numbers[-2])
+
+#Q2
+
+text = input("Enter a string: ")
+
+if (text == text[::-1]):
+    print("Palindrome")
+else:
+    print("Not a palindrome")

@@ -16,6 +16,7 @@
 
 #Write a program to check whether a given string is a palindrome
 
+<<<<<<< HEAD
 # text = input("Enter a string: ")
 
 # if text == text[::-1]:
@@ -75,3 +76,12 @@ for num in list:
     if num not in result:
         result.append(num)
 print(result)
+=======
+
+text = input("Enter a string: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+>>>>>>> 768483d75ed7895deea0bc37d6957ad96b5fd87c

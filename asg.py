@@ -44,9 +44,34 @@
 
 #Q2
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-if (text == text[::-1]):
-    print("Palindrome")
-else:
-    print("Not a palindrome")
+# if (text == text[::-1]):
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
+#Q3
+
+# text = input("Enter a string: ")
+
+# freq = {}
+
+# for ch in text:
+#     if ch in freq:
+#         freq[ch] += 1
+#     else:
+#         freq[ch] = 1
+
+# print(freq)
+
+#q4
+
+list=[2,3,4,5,4,6,7,7]
+
+result=[]
+
+for num in list:
+    if num not in result:
+        result.append(num)
+print(result)

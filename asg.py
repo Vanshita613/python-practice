@@ -125,3 +125,43 @@ n = int(input("Enter number of terms: "))
 
 for i in range(n):
     print(fibonacci(i), end=" ")
+
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n-1)
+
+num = int(input("Enter a number: "))
+
+print("Factorial:", factorial(num))
+
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    return n * factorial(n - 1)
+print(factorial(5))
+
+
+
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+if sorted(s1) == sorted(s2):
+    print("Anagrams")
+else:
+    print("Not Anagrams")
+
+
+a = [1, 3, 5]
+b = [2, 4, 6]
+merged = sorted(a + b)
+print(merged)
+
+
+num = [1, 2, 3, 4, 5]
+k = 2
+k %= len(num)
+result = num[-k:] + num[:-k]
+print(result)
+

@@ -16,7 +16,7 @@
 
 #Write a program to check whether a given string is a palindrome
 
-<<<<<<< HEAD
+
 # text = input("Enter a string: ")
 
 # if text == text[::-1]:
@@ -68,19 +68,60 @@
 
 #q4
 
-list=[2,3,4,5,4,6,7,7]
+# list=[2,3,4,5,4,6,7,7]
 
-result=[]
+# result=[]
 
-for num in list:
-    if num not in result:
-        result.append(num)
-print(result)
+# for num in list:
+#     if num not in result:
+#         result.append(num)
+# print(result)
 
 
-text = input("Enter a string: ")
+# text = input("Enter a string: ")
 
-if text == text[::-1]:
-    print("Palindrome")
-else:
-    print("Not a palindrome")
+# if text == text[::-1]:
+#     print("Palindrome")
+# else:
+#     print("Not a palindrome")
+
+
+#Q5
+# list1=[3,6,8,4,2,9,]
+# list2=[5,4,3,2,7,0,9]
+
+# common=[]
+
+# for i in list1:
+#     if i in list2:
+#         common.append(i)
+# print(common)
+
+
+
+#Q6
+# data = [(1, 3), (4, 1), (2, 5), (6, 2)]
+
+# data.sort(key=lambda x:x[1])
+
+# print(data)
+
+
+
+# text=input("enter a string:")
+
+# for ch in text:
+#     if text.count(ch)==1:
+#         print("first non-repeating character:",ch)
+#         break
+
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
+
+n = int(input("Enter number of terms: "))
+
+for i in range(n):
+    print(fibonacci(i), end=" ")

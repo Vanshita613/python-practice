@@ -316,28 +316,28 @@
 # print(library)
 
 
-while True:
-    print("\n1.Add 2.Subtract 3.Multiply")
-    print("4.Divide 5.Modulus 6.Power 7.Exit")
+# while True:
+#     print("\n1.Add 2.Subtract 3.Multiply")
+#     print("4.Divide 5.Modulus 6.Power 7.Exit")
 
-    choice = int(input("Enter choice: "))
-    if choice == 7:
-        break
-    a = float(input("Enter first number: "))
-    b = float(input("Enter second number: "))
+#     choice = int(input("Enter choice: "))
+#     if choice == 7:
+#         break
+#     a = float(input("Enter first number: "))
+#     b = float(input("Enter second number: "))
     
-    if choice == 1:
-        print(a + b)
-    elif choice == 2:
-        print(a - b)
-    elif choice == 3:
-        print(a * b)
-    elif choice == 4:
-        print(a / b)
-    elif choice == 5:
-        print(a % b)
-    elif choice == 6:
-        print(a ** b)
-    else:
-        print("Invalid Choice")
+#     if choice == 1:
+#         print(a + b)
+#     elif choice == 2:
+#         print(a - b)
+#     elif choice == 3:
+#         print(a * b)
+#     elif choice == 4:
+#         print(a / b)
+#     elif choice == 5:
+#         print(a % b)
+#     elif choice == 6:
+#         print(a ** b)
+#     else:
+#         print("Invalid Choice")
 

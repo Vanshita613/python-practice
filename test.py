@@ -19,3 +19,15 @@ elif( b>a and b>c):
     print(b ,"is the largest")
 else:
     print(c,"is the largest")
+
+
+#Swap Two Numbers
+#using temp variablwe
+a=int(input("enter a number:"))
+b=int(input("enter second number:"))
+temp=a
+a=b
+b=temp
+
+print("a=",a)
+print("b=",b)

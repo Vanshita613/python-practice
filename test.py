@@ -1,4 +1,4 @@
-#check even or odd number
+#Q2.check even or odd number
 
 a=int(input("enter a nmber:"))
 
@@ -8,7 +8,9 @@ else:
     print("number is odd!")
 
 
-#Write a program to find the largest of three numbers.
+
+
+#Q3.Write a program to find the largest of three numbers.
 a = int(input("enter first number:"))
 b = int(input("enter second number:"))
 c = int(input("enter third number:"))
@@ -21,7 +23,8 @@ else:
     print(c,"is the largest")
 
 
-#Swap Two Numbers
+
+#Q4.Swap Two Numbers
 #using temp variablwe
 a=int(input("enter a number:"))
 b=int(input("enter second number:"))
@@ -31,3 +34,16 @@ b=temp
 
 print("a=",a)
 print("b=",b)
+
+
+#without using temp variable
+a=int(input("enter first number:"))
+b=int(input("enter second number:"))
+
+a,b=b,a
+
+print("a=",a)
+print("b=",b)
+
+
+#Q5.

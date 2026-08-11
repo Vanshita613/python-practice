@@ -76,17 +76,33 @@ print(fact)
         
 
 
+
 #Q7. Fibonacci series
-n=int(input("enter a number;"))
+# n=int(input("enter a number;"))
 
-a=0
-b=1
+# a=0
+# b=1
 
-for i in range(n):
-    print(a,end=" ")
+# for i in range(n):
+#     print(a,end=" ")
     
-    c=a+b
-    a=b
-    b=c
+#     c=a+b
+#     a=b
+#     b=c
+
+
+
+#Q8. Reverse a number
+
+n = int(input("Enter a number: "))
+
+reverse = 0
+
+while n > 0:
+    digit = n % 10
+    reverse = reverse * 10 + digit
+    n = n // 10
+
+print("Reverse =", reverse)
     
         

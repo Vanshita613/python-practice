@@ -46,18 +46,16 @@
 # print("b=",b)
 
 
-
-
 #Q5.factorial
-n=int(input("entr a number:"))
+# n=int(input("entr a number:"))
 
-fact=1
-i=1
+# fact=1
+# i=1
 
-while i<=n:
-    fact=fact*i
-    i+=1
-print(fact)
+# while i<=n:
+#     fact=fact*i
+#     i+=1
+# print(fact)
 
 
 #Q6. prime number
@@ -91,18 +89,17 @@ print(fact)
 #     b=c
 
 
-
 #Q8. Reverse a number
 
-n = int(input("Enter a number: "))
+# n = int(input("Enter a number: "))
 
-reverse = 0
+# reverse = 0
 
-while n > 0:
-    digit = n % 10
-    reverse = reverse * 10 + digit
-    n = n // 10
+# while n > 0:
+#     digit = n % 10
+#     reverse = reverse * 10 + digit
+#     n = n // 10
 
-print("Reverse =", reverse)
+# print("Reverse =", reverse)
     
         

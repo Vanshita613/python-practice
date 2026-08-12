@@ -73,8 +73,6 @@
 #         print(num,"is a prime number")
         
 
-
-
 #Q7. Fibonacci series
 # n=int(input("enter a number;"))
 
@@ -87,6 +85,7 @@
 #     c=a+b
 #     a=b
 #     b=c
+
 
 
 #Q8. Reverse a number

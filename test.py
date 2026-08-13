@@ -100,5 +100,63 @@
 #     n = n // 10
 
 # print("Reverse =", reverse)
+
+#Q9
+n = input("Enter a number: ")
+
+if n == n[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
     
         
+#36
+year = int(input("Enter year: "))
+
+if year % 400 == 0 or (year % 4 == 0 and year % 100 != 0):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+
+
+
+#37
+arr = list(map(int, input("Enter numbers: ").split()))
+
+largest = float('-inf')
+second = float('-inf')
+
+for n in arr:
+    if n > largest:
+        second = largest
+        largest = n
+    elif n > second and n != largest:
+        second = n
+
+print("Second largest =", second)
+
+
+#40
+str1 = input("Enter first string: ")
+str2 = input("Enter second string: ")
+
+if sorted(str1) == sorted(str2):
+    print("Anagrams")
+else:
+    print("Not Anagrams")
+
+
+#44
+arr = [10, 20, 30, 40, 50]
+
+key = int(input("Enter element: "))
+
+low = 0
+high = len(arr) - 1
+
+found = False
+
+while low <= high:
+
+    mid = (low + high) // 2

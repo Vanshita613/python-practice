@@ -162,6 +162,7 @@ while low <= high:
     mid = (low + high) // 2
 
 
+#Q
     if arr[mid] == key:
         print("Element found at index", mid)
         found = True

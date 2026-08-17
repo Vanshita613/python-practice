@@ -1,5 +1,18 @@
-class Student:
-    name="Kevin"
+# class Student:         #CLASS
+#     name="Kevin"
 
-s1=Student()
-print(s1.name)
+# s1=Student()           #OBJECT
+# print(s1.name)
+
+
+
+
+class Car:
+    brand="Mercedes!"
+    color="blue!"
+
+ 
+c1=Car()
+
+print(c1.brand)
+print(c1.color)

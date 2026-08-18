@@ -10,6 +10,8 @@
 # print(fact)
 
 
+
+
 #check prime number 
 # num=int(input("enter a number:"))
 

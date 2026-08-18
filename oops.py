@@ -6,7 +6,6 @@
 
 
 
-
 class Car:
     brand="Mercedes!"
     color="blue!"

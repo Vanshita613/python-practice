@@ -5,13 +5,18 @@
 # print(s1.name)
 
 
-
-class Car:
-    brand="Mercedes!"
-    color="blue!"
+# class Car:
+#     brand="Mercedes!"
+#     color="blue!"
 
  
-c1=Car()
+# c1=Car()
 
-print(c1.brand)
-print(c1.color)
+# print(c1.brand)
+# print(c1.color)
+
+
+#__init__
+
+class Student:
+    def__init__(self)   

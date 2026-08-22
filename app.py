@@ -1,8 +1,12 @@
 import streamlit as st
-st.write("hello world")
+st.write("hello world")  #display text
 
 st.write("This is a simple Streamlit app that demonstrates how to use Streamlit for building web applications. You can add more features and functionalities as needed.")
 
-st.markdown("## this is large heading")
+st.markdown("## this is large heading")   #large heading
 
-st.markdown("# this is small heading")
+st.markdown("# this is small heading")   #small heading
+
+
+number=st.slider("pick a number", min_value=1, max_value=9)  # adds a slider
+st.write(f'You picked {number}')

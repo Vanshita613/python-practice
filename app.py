@@ -10,3 +10,9 @@ st.markdown("# this is small heading")   #small heading
 
 number=st.slider("pick a number", min_value=1, max_value=9)  # adds a slider
 st.write(f'You picked {number}')
+
+check=st.checkbox("agree the terms!")
+if check:
+    st.write("you aggredd!")
+
+st.image("streamlit_hero.jpg" )

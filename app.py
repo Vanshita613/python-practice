@@ -16,3 +16,9 @@ if check:
     st.write("you aggredd!")
 
 st.image("streamlit_hero.jpg" )
+
+
+
+bias=st.selectbox("select your bias:", ["jay","niki", "arisu","huta","keeho","intak"])
+
+

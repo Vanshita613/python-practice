@@ -21,5 +21,12 @@
 
 
 
+class student:
+    name="sia"
+    age=19
+
+s1=student()
+print(s1.age)
+
  
     
